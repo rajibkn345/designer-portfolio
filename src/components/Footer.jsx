@@ -7,9 +7,7 @@ function Footer() {
       <Container>
         <Row>
           <Col>
-            <p className="text-muted text-center mb-0">
-              &copy;Copyright 2023 Rajib
-            </p>
+            <p className="text-muted text-center mb-0">&copy;Copyright 2023</p>
           </Col>
         </Row>
       </Container>
