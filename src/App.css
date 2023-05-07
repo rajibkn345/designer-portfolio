@@ -197,6 +197,41 @@ font-weight: 600;
 color: white;
 }
 
-.navText:hover{
+.navText:hover,.navText:active{
 color: bisque;
+}
+
+.about-left{
+width: 35%;
+}
+.about-right{
+flex:1;
+}
+
+.about{
+min-height: 100vh;
+}
+
+@media  screen and (max-width:768px) {
+  .about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap !important;
+  }
+  .about-left{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px;
+  }
+  .about-right{
+  w;
+  }
+  .navbar-collapse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
 }

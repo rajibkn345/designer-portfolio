@@ -4,12 +4,12 @@ import aboutImage from "../assets/about-img.jpg";
 
 const AboutPage = () => {
   return (
-    <div className="d-flex h-screen bg-secondary p-5 justify-content-center align-items-center">
-      <div className="rounded">
+    <div className="d-flex about bg-white p-5 justify-content-center align-items-center">
+      <div className="rounded about-left">
         <Image roundedCircle width={300} src={aboutImage} alt="About" />
       </div>
-      <div className="px-5 mx-3 text-white">
-        <h2 className="text-center py-2">About Me</h2>
+      <div className="px-2 mx-3 about-right">
+        <h2 className="text-center">About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           euismod mauris nec dolor placerat ultrices. Sed faucibus, nulla quis
