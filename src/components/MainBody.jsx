@@ -109,7 +109,6 @@ const MainBody = React.forwardRef(
             </Col>
           </Row>
         </section>
-        <ContactPage container={true} />
       </>
     );
   }
