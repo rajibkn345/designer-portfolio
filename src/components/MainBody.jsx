@@ -41,7 +41,7 @@ const MainBody = React.forwardRef(
             </div>
           </Container>
         </Jumbotron>
-        <section id="work" className="py-5">
+        <section id="work" className="py-5 px-4">
           <h2 className="text-center mb-5">My Works</h2>
 
           <Row>
