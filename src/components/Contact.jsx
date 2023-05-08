@@ -1,8 +1,8 @@
 import React from "react";
 
-const ContactPage = () => {
+const ContactPage = ({ container }) => {
   return (
-    <div className="container my-5">
+    <div className={`${!container ? "container" : "px-4"} my-5`}>
       <h1>Contact Me</h1>
       <form>
         <div className="mb-3">

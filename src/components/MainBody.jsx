@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
+import ContactPage from "./Contact";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -48,7 +49,7 @@ const MainBody = React.forwardRef(
               <Card>
                 <Card.Img
                   variant="top"
-                  src="https://via.placeholder.com/350x200"
+                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
                 />
 
                 <Card.Body>
@@ -69,7 +70,7 @@ const MainBody = React.forwardRef(
               <Card>
                 <Card.Img
                   variant="top"
-                  src="https://via.placeholder.com/350x200"
+                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
                 />
 
                 <Card.Body>
@@ -90,7 +91,7 @@ const MainBody = React.forwardRef(
               <Card>
                 <Card.Img
                   variant="top"
-                  src="https://via.placeholder.com/350x200"
+                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
                 />
 
                 <Card.Body>
@@ -108,6 +109,7 @@ const MainBody = React.forwardRef(
             </Col>
           </Row>
         </section>
+        <ContactPage container={true} />
       </>
     );
   }
