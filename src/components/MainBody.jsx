@@ -3,7 +3,12 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import Typist from "react-typist-component";
 import { Jumbotron } from "./migration";
-import ContactPage from "./Contact";
+import project1 from "../assets/1.jpg";
+import project2 from "../assets/2.jpg";
+import project3 from "../assets/3.jpg";
+import project4 from "../assets/4.jpg";
+import project5 from "../assets/5.jpg";
+import project6 from "../assets/6.jpg";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -47,64 +52,34 @@ const MainBody = React.forwardRef(
           <Row>
             <Col md={4}>
               <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
-                />
-
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-
-                  <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis sed tellus urna. Nunc tincidunt nisl id mauris
-                    consectetur, at iaculis tellus fermentum.
-                  </Card.Text>
-
-                  <Button variant="info">Learn More</Button>
-                </Card.Body>
+                <Card.Img variant="top" src={project1} />
               </Card>
             </Col>
-
             <Col md={4}>
               <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
-                />
-
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-
-                  <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis sed tellus urna. Nunc tincidunt nisl id mauris
-                    consectetur, at iaculis tellus fermentum.
-                  </Card.Text>
-
-                  <Button variant="info">Learn More</Button>
-                </Card.Body>
+                <Card.Img variant="top" src={project2} />
               </Card>
             </Col>
-
             <Col md={4}>
               <Card>
-                <Card.Img
-                  variant="top"
-                  src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzaWduZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
-                />
-
-                <Card.Body>
-                  <Card.Title>Project Title</Card.Title>
-
-                  <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis sed tellus urna. Nunc tincidunt nisl id mauris
-                    consectetur, at iaculis tellus fermentum.
-                  </Card.Text>
-
-                  <Button variant="info">Learn More</Button>
-                </Card.Body>
+                <Card.Img variant="top" src={project3} />
+              </Card>
+            </Col>
+          </Row>
+          <Row className="my-3">
+            <Col md={4}>
+              <Card>
+                <Card.Img variant="top" src={project4} />
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Img variant="top" src={project5} />
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Img variant="top" src={project6} />
               </Card>
             </Col>
           </Row>

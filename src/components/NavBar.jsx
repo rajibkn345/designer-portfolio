@@ -10,7 +10,7 @@ const NavigationBar = () => {
       expand="lg"
     >
       <Navbar.Brand className="navLogo" href="/">
-        {"<Raj/>"}
+        {"<Jhon/>"}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
