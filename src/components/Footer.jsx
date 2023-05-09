@@ -6,10 +6,10 @@ function Footer() {
     <footer className="bg-info text-secondary p-3 ">
       <Row>
         <Col md={6} className="text-center my-2 text-md-start">
-          <p>&copy; 2023 All rights reserved.</p>
+          <p className="m-1">&copy; 2023 All rights reserved.</p>
         </Col>
         <Col md={6} className="text-center my-2 text-md-end">
-          <ul className="list-inline">
+          <ul className="list-inline m-1">
             <li className="list-inline-item">
               <a href="/">Home</a>
             </li>
