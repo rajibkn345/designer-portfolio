@@ -83,6 +83,10 @@ code {
 height: 100vh;
 }
 
+a{
+text-decoration: none;
+}
+
 .socialicons {
   color: white;
   padding-left: 5px;
@@ -200,7 +204,9 @@ color: white;
 .navText:hover,.navText:active{
 color: bisque;
 }
-
+.list-inline-item a{
+color: #777;
+}
 .about-left{
   width: 35%;
   }
@@ -235,3 +241,4 @@ color: bisque;
     justify-content: center;
     }
   }
+
