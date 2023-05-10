@@ -8,8 +8,8 @@ const AboutPage = () => {
       <div className="rounded about-left">
         <Image
           roundedCircle
-          width={350}
-          height={350}
+          width={300}
+          height={300}
           src={aboutImage}
           alt="About"
         />
