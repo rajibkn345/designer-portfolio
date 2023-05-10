@@ -9,6 +9,11 @@ import project3 from "../assets/3.jpg";
 import project4 from "../assets/4.jpg";
 import project5 from "../assets/5.jpg";
 import project6 from "../assets/6.jpg";
+import me from "../assets/about-img.png";
+import { FaStarOfDavid } from "react-icons/fa";
+import { RiFocus3Line } from "react-icons/ri";
+import { GrSwift } from "react-icons/gr";
+import { BiDialpadAlt } from "react-icons/bi";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -25,6 +30,13 @@ const MainBody = React.forwardRef(
         >
           <div id="stars"></div>
           <Container className="text-center">
+            <img
+              src={me}
+              className="my-3 text-center rounded-circle"
+              width={"140px"}
+              height={"140px"}
+              alt="me"
+            />
             <h1 ref={ref} className="display-1">
               {title}
             </h1>
@@ -83,6 +95,33 @@ const MainBody = React.forwardRef(
               </Card>
             </Col>
           </Row>
+        </section>
+        <section id="whyme" className="py-5 px-4">
+          <h3 className="my-4 text-center">Why Jhon?</h3>
+          <div className="d-flex flex-wrap justify-content-center gap-4 items py-4">
+            <div className="d-flex flex-column justify-content-center align-items-center item px-3">
+              <FaStarOfDavid className="text-info" size={120} />
+              <h5 className="text-center my-3">Creative</h5>
+              <p className="text-center py-2">I imagine the cutting edge</p>
+            </div>
+            <div className="d-flex flex-column justify-content-center align-items-center item px-3">
+              <RiFocus3Line className="text-info" size={120} />
+              <h5 className="text-center my-3">Client-focused</h5>
+              <p className="text-center py-2">
+                My clients are always satisfied
+              </p>
+            </div>
+            <div className="d-flex px-3 flex-column justify-content-center align-items-center item">
+              <GrSwift className="text-info" size={120} />
+              <h5 className="text-center my-3">Swift </h5>
+              <p className="text-center py-2">Turnaround time is 3 days</p>
+            </div>
+            <div className="d-flex px-3 flex-column justify-content-center align-items-center item">
+              <BiDialpadAlt className="text-info" size={120} />
+              <h5 className="text-center my-3">Adoptable</h5>
+              <p className="text-center py-2">I produce a virety of art</p>
+            </div>
+          </div>
         </section>
       </>
     );
