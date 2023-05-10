@@ -1,12 +1,18 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import aboutImage from "../assets/about-img.png";
+import aboutImage from "../assets/about-img.jpeg";
 
 const AboutPage = () => {
   return (
     <div className="d-flex about bg-white p-5 justify-content-center align-items-center">
       <div className="rounded about-left">
-        <Image roundedCircle width={300} src={aboutImage} alt="About" />
+        <Image
+          roundedCircle
+          width={350}
+          height={350}
+          src={aboutImage}
+          alt="About"
+        />
       </div>
       <div className="px-2 mx-3 about-right">
         <h2 className="text-center">About Me</h2>
